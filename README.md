@@ -1,0 +1,140 @@
+# Activity Listing App - Online Learning Platform
+
+A cross-platform mobile and web application for managing learning activities in AI, Machine Learning, and Cloud Computing programs.
+
+## 🎯 Overview
+
+This app provides learners with a centralized view of their learning activities including online classes, assignments, quizzes, and discussions. Users can filter activities, view details, and take appropriate actions (Start/Continue/Review).
+
+## ✨ Features
+
+- **Activity Management**: View all learning activities in a scrollable list
+- **Smart Filtering**: Filter by activity type (Online Class, Assignment, Quiz, Discussion)
+- **Action-Oriented UI**: Clear next actions for each activity (Start, Continue, Review)
+- **Activity Details**: Modal popups with comprehensive activity information
+- **Theme Support**: Light/Dark mode toggle
+- **Cross-Platform**: Single codebase for web and mobile
+- **Responsive Design**: Optimized for different screen sizes
+- **Add Activities**: Plus button to create new activities
+
+## 🛠 Tech Stack
+
+- **Framework**: React Native with Expo Router
+- **UI Library**: React Native Paper (Material Design 3)
+- **Navigation**: Expo Router (file-based routing)
+- **State Management**: React Hooks (useState, useContext)
+- **Theming**: Custom theme context with light/dark modes
+- **Icons**: Expo Vector Icons with SF Symbols mapping
+- **Platform**: Web, iOS, Android
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (16+)
+- npm or yarn
+- Expo CLI
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd lrn/lrn-app
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npx expo start
+   ```
+
+### Running on Different Platforms
+
+#### Web
+```bash
+npx expo start --web
+```
+Or press `w` in the terminal after running `npx expo start`
+
+#### Mobile (iOS)
+```bash
+npx expo start --ios
+```
+Or press `i` in the terminal (requires Xcode/iOS Simulator)
+
+#### Mobile (Android)
+```bash
+npx expo start --android
+```
+Or press `a` in the terminal (requires Android Studio/Emulator)
+
+## 📱 Core Features
+
+### Activity Listing
+- Displays all learning activities in a scrollable list
+- Each activity shows: title, type, status, date, and next action
+- Responsive card-based layout
+
+### Filtering System
+- Filter by activity type: All, Online Class, Assignment, Quiz, Discussion
+- Chip-based filter interface
+- Real-time filtering
+
+### Activity Details
+- Modal popup with comprehensive activity information
+- Shows activity description, type, status, and date
+- Action buttons for Start/Continue/Review
+
+### Theme System
+- Light/Dark mode toggle
+- Persistent theme state
+- System theme detection
+- Smooth theme transitions
+
+## 🎨 Design Decisions & Trade-offs
+
+### UI Library: React Native Paper
+**✅ Pros:**
+- Material Design 3 compliance
+- Cross-platform support (web + mobile)
+- Built-in theming system
+- Comprehensive component library
+
+**❌ Cons:**
+- Larger bundle size
+- Material Design may not suit all designs
+
+### Navigation: Expo Router
+**✅ Pros:**
+- File-based routing
+- Type-safe navigation
+- Deep linking support
+- Web-friendly URLs
+
+**❌ Cons:**
+- Relatively new ecosystem
+- Learning curve
+
+## 🔮 Future Enhancements
+
+- [ ] API integration
+- [ ] User authentication
+- [ ] Search functionality
+- [ ] Offline support
+- [ ] Progress tracking
+- [ ] Push notifications
+
+## 🐛 Known Limitations
+
+1. **Data Persistence**: Activities stored in memory only
+2. **Offline Mode**: Requires internet connection
+3. **Large Datasets**: Not optimized for 1000+ activities
+4. **File Uploads**: Not implemented
+
+---
+
+**Built with ❤️ using React Native + Expo**
