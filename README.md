@@ -2,7 +2,7 @@
 
 A cross-platform mobile and web application for managing learning activities in AI, Machine Learning, and Cloud Computing programs.
 
-## 🎯 Overview
+## Overview
 
 This app provides learners with a centralized view of their learning activities including online classes, assignments, quizzes, and discussions. Users can filter activities, view details, and take appropriate actions (Start/Continue/Review).
 
@@ -134,6 +134,22 @@ Or press `a` in the terminal (requires Android Studio/Emulator)
 2. **Offline Mode**: Requires internet connection
 3. **Large Datasets**: Not optimized for 1000+ activities
 4. **File Uploads**: Not implemented
+
+## 📸 App Screenshots
+
+Below are the main screens of the app. You can add images to each section later by placing them in the appropriate location.
+
+### 🏠 Main Page
+![Main Page](assets/webuiimages/main-page.png)
+
+### 📑 Details Tab
+![Details Tab](assets/webuiimages/deatails-tab.png)
+
+### ➕ New Activity
+![New Activity](assets/webuiimages/new-activity.png)
+
+### 🌙 Dark Mode
+![Dark Mode](assets/webuiimages/dark-mode.png)
 
 ---
 
