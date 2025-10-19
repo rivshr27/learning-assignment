@@ -36,20 +36,13 @@ This app provides learners with a centralized view of their learning activities 
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd lrn/lrn-app
-   ```
-
-2. **Install dependencies**
+1. **Install dependencies**
    ```bash
    npm install
    ```
-
-3. **Start the development server**
+2. **Start the development server**
    ```bash
-   npx expo start
+   npm run web
    ```
 
 ### Running on Different Platforms
@@ -72,7 +65,7 @@ npx expo start --android
 ```
 Or press `a` in the terminal (requires Android Studio/Emulator)
 
-## 📱 Core Features
+## Core Features
 
 ### Activity Listing
 - Displays all learning activities in a scrollable list
@@ -95,31 +88,18 @@ Or press `a` in the terminal (requires Android Studio/Emulator)
 - System theme detection
 - Smooth theme transitions
 
-## 🎨 Design Decisions & Trade-offs
+## Design Decisions & Trade-offs
 
 ### UI Library: React Native Paper
-**✅ Pros:**
+
 - Material Design 3 compliance
 - Cross-platform support (web + mobile)
 - Built-in theming system
 - Comprehensive component library
 
-**❌ Cons:**
-- Larger bundle size
-- Material Design may not suit all designs
 
-### Navigation: Expo Router
-**✅ Pros:**
-- File-based routing
-- Type-safe navigation
-- Deep linking support
-- Web-friendly URLs
 
-**❌ Cons:**
-- Relatively new ecosystem
-- Learning curve
-
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] API integration
 - [ ] User authentication
@@ -128,29 +108,22 @@ Or press `a` in the terminal (requires Android Studio/Emulator)
 - [ ] Progress tracking
 - [ ] Push notifications
 
-## 🐛 Known Limitations
 
-1. **Data Persistence**: Activities stored in memory only
-2. **Offline Mode**: Requires internet connection
-3. **Large Datasets**: Not optimized for 1000+ activities
-4. **File Uploads**: Not implemented
-
-## 📸 App Screenshots
+## App Screenshots
 
 Below are the main screens of the app. You can add images to each section later by placing them in the appropriate location.
 
-### 🏠 Main Page
+### Main Page
 ![Main Page](assets/webuiimages/main-page.png)
 
-### 📑 Details Tab
+### Details Tab
 ![Details Tab](assets/webuiimages/deatails-tab.png)
 
-### ➕ New Activity
+###  New Activity
 ![New Activity](assets/webuiimages/new-activity.png)
 
-### 🌙 Dark Mode
+### Dark Mode
 ![Dark Mode](assets/webuiimages/dark-mode.png)
 
 ---
 
-**Built with ❤️ using React Native + Expo**
