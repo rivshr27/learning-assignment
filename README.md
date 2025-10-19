@@ -108,9 +108,14 @@ The following screenshots demonstrate the application's core functionality and u
 
 
 ### Activity Detail Modal
-![Details Tab](assets/webuiimages/deatails-tab.png)  **Creation Interface**
-![New Activity](assets/webuiimages/new-activity.png) **Implementation**
-![Dark Mode](assets/webuiimages/dark-mode.png) **Dark-Mode**
+### Details Tab
+![Details Tab](assets/webuiimages/deatails-tab.png) 
+
+### New Activity Page
+![New Activity](assets/webuiimages/new-activity.png) 
+
+### Dark Mode 
+![Dark Mode](assets/webuiimages/dark-mode.png)
 
 
 ---
